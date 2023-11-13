@@ -53,3 +53,15 @@ jobs:
         key: ${{ secrets.SSHKEY }}
         source: "./_site/*"
         target: "/home/cernetic/docker/blog/_site"
+    - name: Restart nginx on the server
+      if: github.event_name != 'pull_request'
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        port: ${{ secrets.PORT }}
+        key: ${{ secrets.SSHKEY }}
+        script: |
+          cd /home/cernetic/docker/blog
+          docker compose down
+          docker compose up -d
