@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Office 015</p>
-    <p>Karl-Shcwarzschild-Str. 1</p>
+    <p>Karl-Schwarzschild-Str. 1</p>
     <p>85748 Garching b. München</p>
     <p>Germany</p>
 
