@@ -56,5 +56,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         port: ${{ secrets.PORT }}
         key: ${{ secrets.SSHKEY }}
-        source: "./_site/"
+        source: "./_site/*"
         target: "/home/cernetic/docker/blog/_site"
