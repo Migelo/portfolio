@@ -51,3 +51,4 @@ jobs:
         KEY: ${{ secrets.SSHKEY }}
         source: "./_site/"
         target: "/home/cernetic/docker/blog/_site"
+        rm: true
