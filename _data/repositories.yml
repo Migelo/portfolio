@@ -1,12 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - migelo
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - migelo/pygad
+
+bitbucket_users:
+  - Migelo
+
+bitbucket_repos:
+  - gpu_testbed
+  - trace_pygad

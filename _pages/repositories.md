@@ -42,3 +42,12 @@ nav_order: 3
   {% endfor %}
 </div>
 {% endif %}
+
+
+## Bitbucket Repositories
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<p> <a href="https://bitbucket.org/Migelo/gpu_testbed/" target="_blank">TENETgpu</a>: main code developed throughout my PhD.</p>
+<p> <a href="https://bitbucket.org/Migelo/trace_pygad/" target="_blank">trace_pygad</a>: pygad wrapper used to trace gas clouds through time in GADGED simulations.</p>
+</div>
+
