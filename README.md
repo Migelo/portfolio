@@ -3,18 +3,18 @@
 [maintainers]: https://img.shields.io/badge/maintainers-4-success.svg 'Number of maintainers'
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-[![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
+[![deploy](https://github.com/Migelo/portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/Migelo/portfolio/actions/workflows/deploy.yml)
 [![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
-[![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/al-folio/graphs/contributors/)
+[![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/Migelo/portfolio/graphs/contributors/)
 [![Maintainers][maintainers]](#maintainers)
-[![GitHub release](https://img.shields.io/github/v/release/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/alshedivat/al-folio?color=blue)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/alshedivat/al-folio)](https://github.com/alshedivat/al-folio)
-[![GitHub forks](https://img.shields.io/github/forks/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/fork)
+[![GitHub release](https://img.shields.io/github/v/release/alshedivat/al-folio)](https://github.com/Migelo/portfolio/releases/latest)
+[![GitHub license](https://img.shields.io/github/license/alshedivat/al-folio?color=blue)](https://github.com/Migelo/portfolio/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/alshedivat/al-folio)](https://github.com/Migelo/portfolio)
+[![GitHub forks](https://img.shields.io/github/forks/alshedivat/al-folio)](https://github.com/Migelo/portfolio/fork)
 
-[![Docker Image Version](https://img.shields.io/docker/v/amirpourmand/al-folio?sort=semver&label=docker%20image&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
-[![Docker Image Size](https://img.shields.io/docker/image-size/amirpourmand/al-folio?sort=date&label=docker%20image%20size&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
-[![Docker Pulls](https://img.shields.io/docker/pulls/amirpourmand/al-folio?color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
+[![Docker Image Version](https://img.shields.io/docker/v/migel0/portfolio?sort=semver&label=docker%20image&color=blueviolet)](https://hub.docker.com/r/migel0/portfolio)
+[![Docker Image Size](https://img.shields.io/docker/image-size/migel0/portfolio?sort=date&label=docker%20image%20size&color=blueviolet)](https://hub.docker.com/r/migel0/portfolio)
+[![Docker Pulls](https://img.shields.io/docker/pulls/migel0/portfolio?color=blueviolet)](https://hub.docker.com/r/migel0/portfolio)
 
 A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
 If you like the theme, give it a star!
@@ -32,7 +32,7 @@ Feel free to add your own page(s) by sending a PR.
 <tr>
 <td>Academics</td>
 <td>
-<a href="https://martinbulla.github.io" target="_blank">★</a>  
+<a href="https://martinbulla.github.io" target="_blank">★</a>
 <a href="https://maruan.alshedivat.com" target="_blank">★</a>
 <a href="https://www.cs.columbia.edu/~chen1ru/" target="_blank">★</a>
 <a href="https://maithraraghu.com" target="_blank">★</a>
@@ -235,7 +235,7 @@ $ docker compose pull
 $ docker compose up
 ```
 
-Note that when you run it for the first time, it will download a docker image of size 400MB or so. 
+Note that when you run it for the first time, it will download a docker image of size 400MB or so.
 
 Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`docker compose up`) to render the webpage with all you changes. Also, make sure to commit your final changes.
 
@@ -276,7 +276,7 @@ After you are done, **commit** your final changes.
 #### Deployment
 
 Deploying your website to [GitHub Pages](https://pages.github.com/) is the most popular option.
-Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
+Starting version [v0.3.5](https://github.com/Migelo/portfolio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
 
 **For personal and organization webpages:**
 
@@ -405,7 +405,7 @@ Another option is to manually update your code by following the steps below:
 
 ```bash
 # Assuming the current directory is <your-repo-name>
-$ git remote add upstream https://github.com/alshedivat/al-folio.git
+$ git remote add upstream https://github.com/Migelo/portfolio.git
 $ git fetch upstream
 $ git rebase v0.9.0
 ```
@@ -420,28 +420,28 @@ If rebasing is too complicated, we recommend re-installing the new version of th
 ### FAQ
 
 Here are some frequently asked questions.
-If you have a different question, please ask using [Discussions](https://github.com/alshedivat/al-folio/discussions/categories/q-a).
+If you have a different question, please ask using [Discussions](https://github.com/Migelo/portfolio/discussions/categories/q-a).
 
 1. **Q:** After I create a new repository from this template and setup the repo, I get a deployment error.
    Isn't the website supposed to correctly deploy automatically? <br>
    **A:** Yes, if you are using release `v0.3.5` or later, the website will automatically and correctly re-deploy right after your first commit.
    Please make some changes (e.g., change your website info in `_config.yml`), commit, and push.
-   Make sure to follow [deployment instructions](https://github.com/alshedivat/al-folio#deployment) in the previous section.
-   (Relevant issue: [209](https://github.com/alshedivat/al-folio/issues/209#issuecomment-798849211).)
+   Make sure to follow [deployment instructions](https://github.com/Migelo/portfolio#deployment) in the previous section.
+   (Relevant issue: [209](https://github.com/Migelo/portfolio/issues/209#issuecomment-798849211).)
 
 2. **Q:** I am using a custom domain (e.g., `foo.com`).
    My custom domain becomes blank in the repository settings after each deployment.
    How do I fix that? <br>
    **A:** You need to add `CNAME` file to the `master` or `source` branch of your repository.
    The file should contain your custom domain name.
-   (Relevant issue: [130](https://github.com/alshedivat/al-folio/issues/130).)
+   (Relevant issue: [130](https://github.com/Migelo/portfolio/issues/130).)
 
 3. **Q:** My webpage works locally.
     But after deploying, it fails to build and throws `Unknown tag 'toc'`.
     How do I fix that? <br>
    **A:** Make sure you followed through the [deployment instructions](#deployment) in the previous section.
    You should have set the deployment branch to `gh-pages`.
-   (Related issue: [1438](https://github.com/alshedivat/al-folio/issues/1438).)
+   (Related issue: [1438](https://github.com/Migelo/portfolio/issues/1438).)
 
 4. **Q:** My webpage works locally.
     But after deploying, it is not displayed correctly (CSS and JS is not loaded properly).
@@ -451,7 +451,7 @@ If you have a different question, please ask using [Discussions](https://github.
    If you are deploying a personal or organization website, leave `baseurl` blank.
    If you are deploying a project page, set `baseurl: /<your-project-name>/`.
    If all previous steps were done correctly, all is missing is
-   [for your browser to fetch again the site stylesheet](https://github.com/alshedivat/al-folio/issues/1398#issuecomment-1609518404).
+   [for your browser to fetch again the site stylesheet](https://github.com/Migelo/portfolio/issues/1398#issuecomment-1609518404).
 
 5. **Q:** Atom feed doesn't work. Why?
    <br>
@@ -701,7 +701,7 @@ If you are interested, please reach out!
 
 ### All Contributors
 
-<a href="https://github.com/alshedivat/al-folio/graphs/contributors">
+<a href="https://github.com/Migelo/portfolio/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=alshedivat/al-folio&max=36" />
 </a>
 
@@ -709,7 +709,7 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/master/LICENSE).
+The theme is available as open source under the terms of the [MIT License](https://github.com/Migelo/portfolio/blob/master/LICENSE).
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license).
 Since then, it got a full re-write of the styles and many additional cool features.
