@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.mpa-garching.mpg.de/'>Max Planck Institute for Astrophysics, Garching, Germany.</a> E pur si flows.
+subtitle: E pur si flows.
 
 profile:
   align: right
