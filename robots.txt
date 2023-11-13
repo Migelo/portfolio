@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://blog.mihac.de/sitemap.xml
+Sitemap: https://mihac.de/sitemap.xml
