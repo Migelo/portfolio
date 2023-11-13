@@ -49,7 +49,7 @@ jobs:
     - name: Copy repository contents via scp
       if: github.event_name != 'pull_request'
       uses: appleboy/scp-action@v0.1.4
-      env:
+      with:
         debug: true
         rm: true
         host: ${{ secrets.HOST }}
