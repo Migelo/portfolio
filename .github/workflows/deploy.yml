@@ -33,22 +33,28 @@ jobs:
         valueFile: '_config.yml'
         propertyPath: 'giscus.repo'
         value: ${{ github.repository }}
-    - name: Install and Build 🔧
+    # create a folder _site and touch a file foo in it
+    - name: Create _site folder
       run: |
-        pip3 install --upgrade jupyter
-        npm install -g mermaid.cli
-        npm install -g purgecss
-        export JEKYLL_ENV=production
-        bundle exec jekyll build --lsi
-        purgecss -c purgecss.config.js
+        mkdir _site
+        touch _site/foo
+    # - name: Install and Build 🔧
+    #   run: |
+    #     pip3 install --upgrade jupyter
+    #     npm install -g mermaid.cli
+    #     npm install -g purgecss
+    #     export JEKYLL_ENV=production
+    #     bundle exec jekyll build --lsi
+    #     purgecss -c purgecss.config.js
     - name: Copy repository contents via scp
       if: github.event_name != 'pull_request'
       uses: appleboy/scp-action@v0.1.4
       env:
+        debug: true
+        rm: true
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         port: ${{ secrets.PORT }}
         key: ${{ secrets.SSHKEY }}
         source: "./_site/"
         target: "/home/cernetic/docker/blog/_site"
-        rm: true
