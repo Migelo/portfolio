@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Miha
-middle_name: 
+middle_name:
 last_name: Cernetic
 email: cernetic@mpa-garching.mpg.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -246,7 +246,7 @@ sass:
 
 jekyll_analytics:
   Matomo:                   # Add, if you want to track with Matomo (former Piwik Analytics)
-    url: matomo.mihac.de    # Required - url to Matomo installation without trailing /
+    url: visitors.mihac.de    # Required - url to Matomo installation without trailing /
     siteId: "1"          # Required - replace with your Matomo site id (Write id as string)
 
 
