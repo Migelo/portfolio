@@ -24,7 +24,7 @@ I am Miha Cernetic, a PhD student at the [Max Planck Institute for Astrophysics]
 
 My research in astrophysics is broadly focused on how to employ novel high order numerical techniques to study the role turbulence plays in galaxy formation at the exascale. I am particularly interested in the role of turbulence in the intracluster medium in connection with various buoyancy instabilities and in interstellar medium where it affects the star formation process.
 
-I was born in Slovenia, where I obtained my BSc in Physics at the University of Ljubljana on CNB anisotropies. I then moved to Germany to pursue my MSc in Astrophysics at the Max Planck Institute for Solar System Research where I worked on radiative transfer in 1D stellar atmospheres.
+I come from Slovenia, more precicely from Ajdovščina (Wajdušna), a windy town close to the Adriatic coast. I obtained my BSc in Physics at the University of Ljubljana on CNB anisotropies with [Andreja Gomboc](https://www2.ung.si/~agomboc/ag/About_Me.html). I then moved to Göttingen, Germany to pursue my MSc in Astrophysics at the Max Planck Institute for Solar System Research where I worked on radiative transfer in 1D stellar atmospheres with [Alexander Shapiro](https://www.mps.mpg.de/SOLVe/staff/38076).
 
 I am an avid self-hoster, feel free to run an internet [speedtest](https://fast.mihac.de/), use my [privatebin instance](https://privatebin.mihac.de/), [effortlesly send large files](https://send.mihac.de/) or locally share files among devices using [pairdrop](https://pairdrop.mihac.de/). For some reason I have been running my own own email server since 2013.
 
