@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description:
 nav: true
 nav_order: 3
 ---
@@ -50,4 +50,3 @@ nav_order: 3
 <p> <a href="https://bitbucket.org/Migelo/gpu_testbed/" target="_blank">TENETgpu</a>: main code developed throughout my PhD.</p>
 <p> <a href="https://bitbucket.org/Migelo/trace_pygad/" target="_blank">trace_pygad</a>: pygad wrapper used to trace gas clouds through time in GADGED simulations.</p>
 </div>
-
