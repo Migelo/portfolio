@@ -246,7 +246,7 @@ sass:
 
 jekyll_analytics:
   Matomo:                   # Add, if you want to track with Matomo (former Piwik Analytics)
-    url: visitors.mihac.de    # Required - url to Matomo installation without trailing /
+    url: obiskovalci.mihac.de    # Required - url to Matomo installation without trailing /
     siteId: "1"          # Required - replace with your Matomo site id (Write id as string)
 
 
