@@ -15,14 +15,22 @@
     },
     "profiles": []
   },
+  "work": [
+    {
+      "name": "Max Planck Institute for Astrophysics, Garching, Germany",
+      "position": "Postdoctoral researcher",
+      "url": "https://www.mpa-garching.mpg.de/person/104152/2377",
+      "startDate": "2024-12-21"
+    }
+  ],
   "education": [
     {
       "institution": "Max Planck Institute for Astrophysics, Garching, Germany",
       "url": "https://www.mpa-garching.mpg.de/person/104152/2377",
       "area": "Astrophysics",
       "studyType": "PhD",
-      "startDate": "2020",
-      "endDate": "2024",
+      "startDate": "2020-01-01",
+      "endDate": "2023-12-20",
       "highlights": [
         "Turbulence",
         "Numerical methods",
