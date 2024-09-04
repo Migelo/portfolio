@@ -20,7 +20,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am Miha Cernetic, a postdoc at the [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de/), in Garching, Germany. I work with [Volker Springel](https://www.mpa-garching.mpg.de/person/55019/2377) on turbulence, high order numerical methods, GPU computing and galaxy formation. In September 2024 I will start at the [University of Chicago](https://astrophysics.uchicago.edu/) with [Damiano Caprioli](https://astro.uchicago.edu/~caprioli/).
+I am Miha Cernetic, since September 2024 I work as a postdoc with [Damiano Caprioli](https://astro.uchicago.edu/~caprioli/) at [University of Chicago](https://astrophysics.uchicago.edu/) working on hybrid PIC simulations.
+
+I did my PhD at the [Max Planck Institute for Astrophysics](https://www.mpa-garching.mpg.de/), in Garching, Germany. With my supervisor [Volker Springel](https://www.mpa-garching.mpg.de/person/55019/2377) I focused on turbulence, high order numerical methods, GPU computing and galaxy formation. 
 
 My research in astrophysics is broadly focused on how to employ novel high order numerical techniques to study the role turbulence plays in galaxy formation at the exascale. I am particularly interested in the role of turbulence in the intracluster medium in connection with various buoyancy instabilities and in interstellar medium where it affects the star formation process.
 
