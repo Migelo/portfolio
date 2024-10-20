@@ -3,15 +3,14 @@
     "name": "Miha Cernetic",
     "label": "Computational astrophysicist",
     "image": "",
-    "email": "cernetic@mpa-garching.mpg.de",
-    "phone": "+49 89 30000 2001",
-    "url": "https://www.mpa-garching.mpg.de/person/104152/2377",
+    "email": "cernetic@uchicago.edu",
+    "url": "https://astrophysics.uchicago.edu/people/profile/miha-cernetic",
     "summary": "Computational astrophysicist interested in turbulence, high order numerical methods, high performance computing and GPUs.",
     "location": {
-      "address": "Karl-Schwarzschild-Str. 1",
-      "postalCode": "85748",
-      "city": "Garching bei München",
-      "countryCode": "DE"
+      "address": "5640 South Ellis Avenue",
+      "postalCode": "60637",
+      "city": "Chicago, IL",
+      "countryCode": "US"
     },
     "profiles": []
   },
@@ -20,9 +19,17 @@
       "name": "Max Planck Institute for Astrophysics, Garching, Germany",
       "position": "Postdoctoral researcher",
       "url": "https://www.mpa-garching.mpg.de/person/104152/2377",
-      "startDate": "2024",
+      "startDate": "Feb 24",
+      "endDate": "Aug 24"
+    },
+    {
+      "name": "The University of Chicago, Chicago, IL, USA",
+      "position": "Postdoctoral researcher",
+      "url": "https://astrophysics.uchicago.edu/people/profile/miha-cernetic",
+      "startDate": "Sep 24",
       "endDate": "now"
     }
+
   ],
   "education": [
     {
