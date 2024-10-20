@@ -9,10 +9,11 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Office 015</p>
-    <p>Karl-Schwarzschild-Str. 1</p>
-    <p>85748 Garching b. München</p>
-    <p>Germany</p>
+    <p>Office 505</p>
+    <p>Department of Astronomy and Astrophysics</p>
+    <p>5640 South Ellis Avenue</p>
+    <p>60637 Chicago, IL</p>
+    <p>USA</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
