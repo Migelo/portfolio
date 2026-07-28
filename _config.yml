@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Miha
 middle_name:
 last_name: Cernetic
-email: cernetic@mpa-garching.mpg.de
+email: cernetic@uchicago.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -85,7 +85,7 @@ osf_id: # your OSF ID
 research_gate_profile: # your profile on ResearchGate
 scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
-work_url: https://www.mpa-garching.mpg.de/person/104152/2377 # work page URL
+work_url: https://astrophysics.uchicago.edu/people/profile/miha-cernetic # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)

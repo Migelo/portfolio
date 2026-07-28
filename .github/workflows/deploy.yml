@@ -24,16 +24,10 @@ jobs:
       with:
         ruby-version: '4.0.6'
         bundler-cache: true
-    - name: Update _config.yml ⚙️
-      uses: fjogeleit/yaml-update-action@v0.17.0
-      with:
-        commitChange: false
-        valueFile: '_config.yml'
-        propertyPath: 'giscus.repo'
-        value: ${{ github.repository }}
     - name: Install and Build 🔧
       run: |
-        sudo apt install imagemagick
+        sudo apt-get update -qq
+        sudo apt-get install -y imagemagick
         pip3 install --upgrade jupyter
         npm install -g @mermaid-js/mermaid-cli
         npm install -g purgecss
@@ -45,7 +39,7 @@ jobs:
     #     find _site/ \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/piwik/obiskovalci/g'
     - name: Copy repository contents via scp
       if: github.event_name != 'pull_request'
-      uses: appleboy/scp-action@master
+      uses: appleboy/scp-action@v1.0.0
       with:
         debug: true
         rm: true
@@ -57,7 +51,7 @@ jobs:
         target: "/home/cernetic/docker/blog/_site"
     - name: Restart nginx on the server
       if: github.event_name != 'pull_request'
-      uses: appleboy/ssh-action@master
+      uses: appleboy/ssh-action@v1.2.5
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
