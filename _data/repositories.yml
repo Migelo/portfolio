@@ -2,17 +2,28 @@ github_users:
   - migelo
 
 github_repos:
-  - migelo/pygad
-  - migelo/fft-sweep
-  - migelo/glass
-  - migelo/sorting-bench-gpu
-  - migelo/gfortran-o3-fre-inline-miscompile
-  - migelo/sycl-bug
-  - migelo/solar-battery-simulator
-  - migelo/telegram-whisper-bot
-  - migelo/googlemaps-scraper
-  - migelo/eu-tax-rates
-  - migelo/oecd-retirement-gap
+  - repo: migelo/pygad
+    description: Python framework for analysing Gadget snapshots.
+  - repo: migelo/fft-sweep
+    description: sweeping turbulence generator built on MPI FFTW3.
+  - repo: migelo/glass
+    description: glass initial-condition generator using Sobol sequences and iterative relaxation.
+  - repo: migelo/sorting-bench-gpu
+    description: GPU sorting benchmarks (OpenMP offload and oneDPL/SYCL) extracted from dHybridR.
+  - repo: migelo/gfortran-o3-fre-inline-miscompile
+    description: case study of a gfortran -O3 FRE/inliner surprise, with a live CI matrix.
+  - repo: migelo/sycl-bug
+    description: reproducer for sycl::group_broadcast UB with a non-uniform source_id on Intel PVC.
+  - repo: migelo/solar-battery-simulator
+    description: simulates and sizes solar PV + battery systems from real consumption data.
+  - repo: migelo/telegram-whisper-bot
+    description: Telegram bot that transcribes voice messages with Whisper.
+  - repo: migelo/googlemaps-scraper
+    description: Google Places scraper plus cuisine and rating analyses for ~3,000 Munich restaurants.
+  - repo: migelo/eu-tax-rates
+    description: interactive comparison of effective income tax and social contribution rates across the 27 EU states.
+  - repo: migelo/oecd-retirement-gap
+    description: by-sex gap between retirement age and life expectancy across 38 OECD countries.
 
 bitbucket_users:
   - Migelo

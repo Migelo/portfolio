@@ -2,6 +2,9 @@
   <a href="https://github.com/{{ include.repository }}">
     <h5 class="repo-title"><i class="fab fa-github"></i> {{ include.repository }}</h5>
   </a>
+  {% if include.description %}
+    <p class="repo-description">{{ include.description }}</p>
+  {% endif %}
   <div class="repo-badges">
     <img alt="{{ include.repository }} stars" src="https://img.shields.io/github/stars/{{ include.repository }}?style=flat-square">
     <img alt="{{ include.repository }} forks" src="https://img.shields.io/github/forks/{{ include.repository }}?style=flat-square">
