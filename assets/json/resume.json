@@ -1,16 +1,14 @@
 {
   "basics": {
     "name": "Miha Cernetic",
-    "label": "Computational astrophysicist",
+    "label": "Kernel engineer",
     "image": "",
-    "email": "cernetic@uchicago.edu",
-    "url": "https://astrophysics.uchicago.edu/people/profile/miha-cernetic",
-    "summary": "Computational astrophysicist interested in turbulence, high order numerical methods, high performance computing and GPUs.",
+    "email": "cernetic.miha@gmail.com",
+    "url": "https://mihac.de",
+    "summary": "Kernel engineer at Cerebras. Background in computational astrophysics: turbulence, high order numerical methods, high performance computing and GPUs.",
     "location": {
-      "address": "5640 South Ellis Avenue",
-      "postalCode": "60637",
-      "city": "Chicago, IL",
-      "countryCode": "US"
+      "city": "Berlin",
+      "countryCode": "DE"
     },
     "profiles": []
   },
@@ -19,17 +17,22 @@
       "name": "Max Planck Institute for Astrophysics, Garching, Germany",
       "position": "Postdoctoral researcher",
       "url": "https://www.mpa-garching.mpg.de/person/104152/2377",
-      "startDate": "Feb 24",
-      "endDate": "Aug 24"
+      "startDate": "2024-02",
+      "endDate": "2024-08"
     },
     {
       "name": "The University of Chicago, Chicago, IL, USA",
       "position": "Postdoctoral researcher",
       "url": "https://astrophysics.uchicago.edu/people/profile/miha-cernetic",
-      "startDate": "Sep 24",
-      "endDate": "now"
+      "startDate": "2024-09",
+      "endDate": "2026-05"
+    },
+    {
+      "name": "Cerebras Systems, Berlin, Germany",
+      "position": "Kernel Engineer",
+      "url": "https://www.cerebras.ai/",
+      "startDate": "2026-05"
     }
-
   ],
   "education": [
     {
