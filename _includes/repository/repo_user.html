@@ -1,6 +1,8 @@
-<div class="repo p-2 text-center">
+<div class="repo p-3">
   <a href="https://github.com/{{ include.username }}">
-    <strong>{{ include.username }}</strong><br>
-    <img alt="{{ include.username }} followers" src="https://img.shields.io/github/followers/{{ include.username }}?label=followers&style=for-the-badge&logo=github">
+    <h5 class="repo-title"><i class="fab fa-github"></i> {{ include.username }}</h5>
   </a>
+  <div class="repo-badges">
+    <img alt="{{ include.username }} followers" src="https://img.shields.io/github/followers/{{ include.username }}?label=followers&style=flat-square&logo=github">
+  </div>
 </div>

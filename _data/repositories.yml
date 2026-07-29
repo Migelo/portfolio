@@ -3,6 +3,16 @@ github_users:
 
 github_repos:
   - migelo/pygad
+  - migelo/fft-sweep
+  - migelo/glass
+  - migelo/sorting-bench-gpu
+  - migelo/gfortran-o3-fre-inline-miscompile
+  - migelo/sycl-bug
+  - migelo/solar-battery-simulator
+  - migelo/telegram-whisper-bot
+  - migelo/googlemaps-scraper
+  - migelo/eu-tax-rates
+  - migelo/oecd-retirement-gap
 
 bitbucket_users:
   - Migelo

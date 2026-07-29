@@ -1,9 +1,11 @@
-<div class="repo p-2 text-center">
+<div class="repo p-3">
   <a href="https://github.com/{{ include.repository }}">
-    <strong>{{ include.repository }}</strong><br>
+    <h5 class="repo-title"><i class="fab fa-github"></i> {{ include.repository }}</h5>
+  </a>
+  <div class="repo-badges">
     <img alt="{{ include.repository }} stars" src="https://img.shields.io/github/stars/{{ include.repository }}?style=flat-square">
     <img alt="{{ include.repository }} forks" src="https://img.shields.io/github/forks/{{ include.repository }}?style=flat-square">
     <img alt="{{ include.repository }} top language" src="https://img.shields.io/github/languages/top/{{ include.repository }}?style=flat-square">
     <img alt="{{ include.repository }} last commit" src="https://img.shields.io/github/last-commit/{{ include.repository }}?style=flat-square">
-  </a>
+  </div>
 </div>
