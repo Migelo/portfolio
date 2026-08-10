@@ -2,7 +2,7 @@ version: "3"
 # this file uses prebuilt image in dockerhub
 services:
   jekyll:
-    image: Migelo/portfolio
+    image: migel0/portfolio
     build: .
     ports:
       - 8080:8080

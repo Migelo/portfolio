@@ -8,12 +8,13 @@ middle_name:
 last_name: Cernetic
 email: cernetic.miha@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal website of Miha Cernetic, kernel engineer at Cerebras Systems in Berlin,
+  previously computational astrophysics at the University of Chicago and MPA Garching.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://www.1blu.de/" target="_blank">1blu</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: Miha Cernetic, kernel engineering, GPU computing, high-order methods, turbulence, astrophysics  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
